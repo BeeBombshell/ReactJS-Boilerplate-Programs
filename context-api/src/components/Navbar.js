@@ -5,7 +5,8 @@ import { ThemeContext } from "../Contexts/ThemeContext";
 /*class Navbar extends React.Component {
     render() {
         return (
-            <AuthContext.Consumer>{(authContext) => {
+            <AuthContext.Consumer>
+            {(authContext) => {
                 return (
                     <ThemeContext.Consumer>
                         {(themeContext) => {
