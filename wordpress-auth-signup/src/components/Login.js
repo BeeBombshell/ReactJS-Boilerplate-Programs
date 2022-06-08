@@ -7,7 +7,7 @@ class Login extends Component {
     constructor() {
         super();
         this.state = {
-            email: '',
+            username: '',
             password: '',
         };
         this.handleChange = this.handleChange.bind(this);
@@ -46,9 +46,14 @@ class Login extends Component {
     handleSubmit(e) {
         e.preventDefault();
         // this.getWPnonce();
-        axios.get('http://localhost:8080/?rest_route=/wp/v2/users')
+        axios.get('http://localhost:8080/?rest_route=/wp/v2/users/me', {
+            auth: {
+                username: this.state.username,
+                password: this.state.password
+            }
+    })
             .then(res => {
-                console.log(res);
+                console.log("login successful");
             }).catch(error => {
                 console.log(error.response)
             });
@@ -59,8 +64,8 @@ class Login extends Component {
             <div className="Login">
                 <form onSubmit={this.handleSubmit}>
                     <div className="form-group">
-                        <label htmlFor="exampleInputEmail">Email Address</label>
-                        <input name="email" value={this.state.email} onChange={this.handleChange} type="email" className="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email" />
+                        <label htmlFor="exampleInputEmail">Username</label>
+                        <input name="username" value={this.state.username} onChange={this.handleChange} type="text" className="form-control" id="exampleInputUsername" placeholder="Enter Username" />
                     </div>
                     <div className="form-group">
                         <label htmlFor="exampleInputPassword">Password</label>

@@ -49,7 +49,17 @@ class SignUp extends Component {
   handleSubmit(e) {
     e.preventDefault();
     // this.getWPnonce();
-    axios.get('http://localhost:8080/?rest_route=/wp/v2/users')
+    axios.post('https://localhost:8080/?rest_route=/wp/v2/users', {
+      username: this.state.username,
+      email: this.state.email,
+      password: this.state.password,
+      roles: this.state.roles,
+    }, {
+      auth: {
+        username: "admin",
+        password: "admin@123"
+      }
+    })
       .then(res => {
         console.log(res);
       }).catch(error => {
