@@ -9,12 +9,12 @@ const Contact = (props) => {
 
     return (
         <div>
-            <Modal />
+            {/* <Modal /> */}
             <div
                 className="ui raised very padded text container segment"
                 style={{ marginTop: '80px' }}
             >
-                <Link to='card/Alex' className="ui header">Alex</Link>
+                <Link to='card/Alex' className="ui header">{props.card}</Link>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
         </div>

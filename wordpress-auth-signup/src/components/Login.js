@@ -47,16 +47,22 @@ class Login extends Component {
     handleSubmit(e) {
         e.preventDefault();
         // this.getWPnonce();
-        axios.get('/wp-json/wp/v2/users', {
-            headers: {
-                'Authorization': `Bearer ${this.token}`,
-                "Access-Control-Allow-Headers": "*",
-                "Access-Control-Allow-Origin": "http://localhost:8080",
-                "Access-Control-Allow-Methods": "*"
+        axios.get('http://localhost:8080/wp/v2/users', {
+            auth: {
+                username: "admin",
+                password: "admin@123"
+            },
+        },
+            {
+                headers: {
+                    "Access-Control-Allow-Headers": "*",
+                    "Access-Control-Allow-Origin": "http://localhost:8080",
+                    "Access-Control-Allow-Methods": "POST, OPTIONS, GET",
+                }
             }
-        })
+        )
             .then(res => {
-                console.log(res);
+                console.log(res.data);
             }).catch(error => {
                 console.log(error.response)
             });

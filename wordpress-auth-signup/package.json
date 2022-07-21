@@ -2,7 +2,7 @@
   "name": "wp-login-react",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:8080",
+  "proxy": "http://wordpress-docker.com/",
   "dependencies": {
     "axios": "^0.18.1",
     "bootstrap-select-country": "^4.2.0",

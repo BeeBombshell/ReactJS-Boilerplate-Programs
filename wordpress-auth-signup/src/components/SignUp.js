@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../assets/style.css';
 import axios from 'axios';
+import instance from './axios';
 
 class SignUp extends Component {
 
@@ -17,6 +18,7 @@ class SignUp extends Component {
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
+
 
   handleChange(e) {
     let target = e.target;
@@ -51,7 +53,7 @@ class SignUp extends Component {
     e.preventDefault();
     console.log(this.state);
     // this.getWPnonce();
-    axios.post('http://localhost:8080/wp/v2/users', {
+    axios.post('http://localhost:8080/wp-json/wp/v2/users', {
       username: this.state.username,
       email: this.state.email,
       password: this.state.password,
@@ -61,7 +63,7 @@ class SignUp extends Component {
         'Authorization': `Bearer ${this.token}`,
         "Access-Control-Allow-Headers": "*",
         "Access-Control-Allow-Origin": "http://localhost:8080",
-        "Access-Control-Allow-Methods": "POST",
+        "Access-Control-Allow-Methods": "POST, OPTIONS",
       }
     })
       .then(res => {
