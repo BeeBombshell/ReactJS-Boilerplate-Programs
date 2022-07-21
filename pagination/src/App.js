@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './App.css';
 
 function App() {
   const [posts, setPosts] = useState([]);
@@ -18,6 +17,8 @@ function App() {
 
     fetchPosts();
   }, []);
+
+  console.log(posts);
   
   return (
     <div>
