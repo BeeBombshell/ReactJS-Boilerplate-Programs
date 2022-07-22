@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import Posts from './components/Posts';
 
 function App() {
   const [posts, setPosts] = useState([]);
@@ -18,11 +19,15 @@ function App() {
     fetchPosts();
   }, []);
 
-  console.log(posts);
+  // Get current posts
+  const indexOfLastPost = currentPage * postsPerPage;
+  const indexOfFirstPost = indexOfLastPost - postsPerPage;
+  const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost);
   
   return (
     <div>
-      <h1> My App </h1>
+      <h1 className='text-primary mb-3'> My Blog </h1>
+      <Posts posts={currentPosts} loading={loading} />
     </div>
   );
 }
