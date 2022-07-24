@@ -5,3 +5,6 @@
 - NodeJS
 - HTML
 - CSS
+
+## List of Mini Apps Included :pencil:
+#### first-app
