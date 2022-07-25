@@ -7,5 +7,5 @@
 - CSS
 
 ## List of Mini Apps Included :pencil:
-#### first-app
-#### hemisphere
+- first-app
+- hemisphere :globe_with_meridians:
