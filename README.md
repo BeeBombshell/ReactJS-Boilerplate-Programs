@@ -9,3 +9,4 @@
 ## List of Mini Apps Included :pencil:
 - first-app :one:
 - hemisphere :globe_with_meridians:
+- image-list :camera:
