@@ -14,3 +14,4 @@
 - todo-list :page_with_curl:
 - hooks :unlock:
 - redux-integration :paperclip:
+- pagination
