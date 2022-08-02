@@ -15,3 +15,4 @@
 - hooks :unlock:
 - redux-integration :paperclip:
 - pagination :clipboard:
+- rest-api-integration
