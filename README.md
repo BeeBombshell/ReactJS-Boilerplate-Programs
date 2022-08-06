@@ -16,3 +16,4 @@
 - redux-integration :paperclip:
 - pagination :clipboard:
 - rest-api-integration :paperclips:
+- wordpress-auth-signup
