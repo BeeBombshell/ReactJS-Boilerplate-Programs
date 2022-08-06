@@ -12,8 +12,8 @@
 - image-list :camera:
 - context-api :book:
 - todo-list :page_with_curl:
-- hooks :unlock:
+- hooks :grey_question:
 - redux-integration :paperclip:
 - pagination :clipboard:
 - rest-api-integration :paperclips:
-- wordpress-auth-signup
+- wordpress-auth-signup :closed_lock_with_key:
