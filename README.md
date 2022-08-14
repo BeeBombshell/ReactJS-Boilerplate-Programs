@@ -1,7 +1,7 @@
 # ReactJS-Boilerplate-Programs :maple_leaf:
 
 ### Tech Stack Used :eyes:
-- ReactJS
+- ReactJS :globe_with_meridians:
 - NodeJS
 - HTML
 - CSS
