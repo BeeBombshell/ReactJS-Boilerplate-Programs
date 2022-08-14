@@ -2,7 +2,7 @@
 
 ### Tech Stack Used :eyes:
 - ReactJS :globe_with_meridians:
-- NodeJS
+- NodeJS :herb:
 - HTML
 - CSS
 
