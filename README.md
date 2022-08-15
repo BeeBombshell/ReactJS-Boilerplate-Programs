@@ -3,7 +3,7 @@
 ### Tech Stack Used :eyes:
 - ReactJS :globe_with_meridians:
 - NodeJS :herb:
-- HTML
+- HTML :sparkler:
 - CSS
 
 ## List of Mini Apps Included :pencil:
