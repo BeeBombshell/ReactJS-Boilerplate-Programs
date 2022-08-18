@@ -4,7 +4,7 @@
 - ReactJS :globe_with_meridians:
 - NodeJS :herb:
 - HTML :sparkler:
-- CSS
+- CSS :lipstick:
 
 ## List of Mini Apps Included :pencil:
 - first-app :one:
