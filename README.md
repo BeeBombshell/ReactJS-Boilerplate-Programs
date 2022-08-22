@@ -13,6 +13,7 @@
 - context-api :book:
 - todo-list :page_with_curl:
 - hooks :grey_question:
+- react-router
 - redux-integration :paperclip:
 - pagination :clipboard:
 - rest-api-integration :paperclips:
