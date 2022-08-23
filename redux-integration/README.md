@@ -1,1 +1,1 @@
-# Redux Integration 
+# Redux Integration :paperclip:
