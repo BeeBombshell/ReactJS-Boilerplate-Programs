@@ -7,7 +7,7 @@
 - CSS :lipstick:
 
 ## List of Mini Apps Included :pencil:
-- first-app :one:
+- [first-app](https://github.com/BeeBombshell/ReactJS-Boilerplate-Programs/tree/master/first-app) :one:
 - hemisphere :globe_with_meridians:
 - image-list :camera:
 - context-api :book:
