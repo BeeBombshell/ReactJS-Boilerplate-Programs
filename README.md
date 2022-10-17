@@ -9,7 +9,7 @@
 ## List of Mini Apps Included :pencil:
 - [first-app](https://github.com/BeeBombshell/ReactJS-Boilerplate-Programs/tree/master/first-app) :one:
 - [hemisphere](https://github.com/BeeBombshell/ReactJS-Boilerplate-Programs/tree/master/hemisphere) :globe_with_meridians:
-- image-list :camera:
+- [image-list](https://github.com/BeeBombshell/ReactJS-Boilerplate-Programs/tree/master/image-list) :camera:
 - context-api :book:
 - todo-list :page_with_curl:
 - hooks :grey_question:
