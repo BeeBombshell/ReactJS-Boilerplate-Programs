@@ -14,7 +14,7 @@
 - [todo-list](https://github.com/BeeBombshell/ReactJS-Boilerplate-Programs/tree/master/todo) :page_with_curl:
 - [hooks](https://github.com/BeeBombshell/ReactJS-Boilerplate-Programs/tree/master/hooks) :grey_question:
 - [react-router](https://github.com/BeeBombshell/ReactJS-Boilerplate-Programs/tree/master/react-router) :video_game:
-- redux-integration :paperclip:
+- [redux-integration](https://github.com/BeeBombshell/ReactJS-Boilerplate-Programs/tree/master/redux-integration) :paperclip:
 - pagination :clipboard:
 - rest-api-integration :paperclips:
 - wordpress-auth-signup :closed_lock_with_key:
