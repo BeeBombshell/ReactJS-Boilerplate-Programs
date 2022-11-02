@@ -16,5 +16,5 @@
 - [react-router](https://github.com/BeeBombshell/ReactJS-Boilerplate-Programs/tree/master/react-router) :video_game:
 - [redux-integration](https://github.com/BeeBombshell/ReactJS-Boilerplate-Programs/tree/master/redux-integration) :paperclip:
 - [pagination](https://github.com/BeeBombshell/ReactJS-Boilerplate-Programs/tree/master/pagination) :clipboard:
-- rest-api-integration :paperclips:
+- [rest-api-integration](https://github.com/BeeBombshell/ReactJS-Boilerplate-Programs/tree/master/rest-api-integration) :paperclips:
 - wordpress-auth-signup :closed_lock_with_key:
