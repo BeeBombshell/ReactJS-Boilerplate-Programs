@@ -17,4 +17,4 @@
 - [redux-integration](https://github.com/BeeBombshell/ReactJS-Boilerplate-Programs/tree/master/redux-integration) :paperclip:
 - [pagination](https://github.com/BeeBombshell/ReactJS-Boilerplate-Programs/tree/master/pagination) :clipboard:
 - [rest-api-integration](https://github.com/BeeBombshell/ReactJS-Boilerplate-Programs/tree/master/rest-api-integration) :paperclips:
-- wordpress-auth-signup :closed_lock_with_key:
+- [wordpress-auth-signup](https://github.com/BeeBombshell/ReactJS-Boilerplate-Programs/tree/master/wordpress-auth-signup) :closed_lock_with_key:
